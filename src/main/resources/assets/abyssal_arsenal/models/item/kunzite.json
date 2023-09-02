@@ -1,0 +1,6 @@
+{
+  "parent": "item/generate",
+  "textures": {
+    "Layer0": "abyssal_arsenal:item/kunzite"
+  }
+}

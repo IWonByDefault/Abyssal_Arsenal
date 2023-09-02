@@ -1,3 +1,7 @@
 {
-  "item.abyssal_arsenal.kunzite": "Kunzite"
+  "item.abyssal_arsenal.kunzite": "Kunzite",
+  "item.abyssal_arsenal.kunzite_shard": "Kunzite Shard",
+  "item.abyssal_arsenal.kunzite_ore": "Kunzite Ore",
+  "item.abyssal_arsenal.deepslate_kunzite_ore": "Deepslate Kunzite Ore",
+  "item.abyssal_arsenal.kunzite_block": "Kunzite Block"
 }

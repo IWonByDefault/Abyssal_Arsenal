@@ -39,6 +39,11 @@ public class AbyssalArsenal {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.KUNZITE);
+            event.accept(ModItems.KUNZITE_SHARD);
+            event.accept(ModItems.KUNZITE_ORE);
+            event.accept(ModItems.DEEPSLATE_KUNZITE_ORE);
+            event.accept(ModItems.KUNZITE_BLOCK);
+            event.accept(ModItems.INFERNAL_DIAMOND);
         }
     }
 

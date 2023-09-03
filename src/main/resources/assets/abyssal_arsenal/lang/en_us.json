@@ -18,7 +18,7 @@
   "item.abyssal_arsenal.voidstrand": "Voidstrand",
   "item.abyssal_arsenal.eldritchstrand": "Eldritchstrand",
 
-  "item.abyssal_arsenal.kunzite_ore": "Kunzite Ore",
-  "item.abyssal_arsenal.deepslate_kunzite_ore": "Deepslate Kunzite Ore",
-  "item.abyssal_arsenal.kunzite_block": "Kunzite Block"
+  "block.abyssal_arsenal.kunzite_ore": "Kunzite Ore",
+  "block.abyssal_arsenal.deepslate_kunzite_ore": "Deepslate Kunzite Ore",
+  "block.abyssal_arsenal.block_of_kunzite": "Block of Kunzite"
 }

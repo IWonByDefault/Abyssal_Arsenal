@@ -1,6 +1,7 @@
 package net.iwonbydefault.abyssal_arsenal.item;
 
 import net.iwonbydefault.abyssal_arsenal.AbyssalArsenal;
+import net.iwonbydefault.abyssal_arsenal.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -33,9 +34,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.VOIDSTRAND_FIBERS.get());
                         pOutput.accept(ModItems.VOIDSTRAND.get());
                         pOutput.accept(ModItems.ELDRITCHSTRAND.get());
-                        pOutput.accept(ModItems.KUNZITE_ORE.get());
-                        pOutput.accept(ModItems.DEEPSLATE_KUNZITE_ORE.get());
-                        pOutput.accept(ModItems.KUNZITE_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.KUNZITE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_KUNZITE_ORE.get());
+                        pOutput.accept(ModBlocks.BLOCK_OF_KUNZITE.get());
 
                     })
                     .build());

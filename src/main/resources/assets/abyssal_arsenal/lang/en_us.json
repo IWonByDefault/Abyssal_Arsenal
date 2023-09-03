@@ -1,6 +1,23 @@
 {
-  "item.abyssal_arsenal.kunzite": "Kunzite",
+  "creativetab.abyssal_arsenal_tab": "Abyssal Arsenal",
+
   "item.abyssal_arsenal.kunzite_shard": "Kunzite Shard",
+  "item.abyssal_arsenal.kunzite": "Kunzite",
+  "item.abyssal_arsenal.infernal_kunzite": "Infernal Kunzite",
+  "item.abyssal_arsenal.corrupt_kunzite": "Corrupt Kunzite",
+  "item.abyssal_arsenal.eldritch_kunzite": "Eldritch Kunzite",
+
+  "item.abyssal_arsenal.infernal_powder": "Infernal Powder",
+  "item.abyssal_arsenal.corrupt_powder": "Corrupt Powder",
+  "item.abyssal_arsenal.eldritch_powder": "Eldritch Powder",
+  "item.abyssal_arsenal.infernal_diamond": "Infernal Diamond",
+  "item.abyssal_arsenal.corrupt_netherite_ingot": "Corrupt Netherite Ingot",
+  "item.abyssal_arsenal.abyssal_essence": "Abyssal Essence",
+
+  "item.abyssal_arsenal.voidstrand_fibers": "Voidstrand Fibers",
+  "item.abyssal_arsenal.voidstrand": "Voidstrand",
+  "item.abyssal_arsenal.eldritchstrand": "Eldritchstrand",
+
   "item.abyssal_arsenal.kunzite_ore": "Kunzite Ore",
   "item.abyssal_arsenal.deepslate_kunzite_ore": "Deepslate Kunzite Ore",
   "item.abyssal_arsenal.kunzite_block": "Kunzite Block"

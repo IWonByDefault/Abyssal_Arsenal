@@ -1,6 +1,7 @@
 package net.iwonbydefault.abyssal_arsenal;
 
 import com.mojang.logging.LogUtils;
+import net.iwonbydefault.abyssal_arsenal.item.ModCreativeModTabs;
 import net.iwonbydefault.abyssal_arsenal.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -24,6 +25,8 @@ public class AbyssalArsenal {
     public AbyssalArsenal() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -38,12 +41,26 @@ public class AbyssalArsenal {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.KUNZITE);
             event.accept(ModItems.KUNZITE_SHARD);
+            event.accept(ModItems.KUNZITE);
+            event.accept(ModItems.CORRUPT_KUNZITE);
+            event.accept(ModItems.INFERNAL_KUNZITE);
+            event.accept(ModItems.ELDRITCH_KUNZITE);
+
+            event.accept(ModItems.INFERNAL_POWDER);
+            event.accept(ModItems.CORRUPT_POWDER);
+            event.accept(ModItems.ELDRITCH_POWDER);
+            event.accept(ModItems.INFERNAL_DIAMOND);
+            event.accept(ModItems.CORRUPT_NETHERITE_INGOT);
+            event.accept(ModItems.ABYSSAL_ESSENCE);
+
+            event.accept(ModItems.VOIDSTRAND_FIBERS);
+            event.accept(ModItems.VOIDSTRAND);
+            event.accept(ModItems.ELDRITCHSTRAND);
+
             event.accept(ModItems.KUNZITE_ORE);
             event.accept(ModItems.DEEPSLATE_KUNZITE_ORE);
             event.accept(ModItems.KUNZITE_BLOCK);
-            event.accept(ModItems.INFERNAL_DIAMOND);
         }
     }
 
